@@ -7,7 +7,7 @@ __version__ = "0.0.1"
 
 REPO_NAME = "machine-learning-project-template"
 AUTHOR_USER_NAME = "rohwid"
-SRC_REPO = "MLProjectTemplate"
+SRC_REPO = "MLProject"
 AUTHOR_EMAIL = "rohwid@gmail.ai"
 
 setuptools.setup(
