@@ -3,6 +3,7 @@
 ![workflow status](https://github.com/rohwid/machine-learning-project-template/actions/workflows/builder.yml/badge.svg)
 
 Steps:
++ Select **Use this template** > **Create a new repository**. This menu is in the top right corner of this repository.
 + Create virtual environment
 
     ```bash
