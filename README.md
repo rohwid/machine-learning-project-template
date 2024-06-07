@@ -3,12 +3,13 @@
 ![workflow status](https://github.com/rohwid/machine-learning-project-template/actions/workflows/builder.yml/badge.svg)
 
 Steps:
-+ Create virtual enviroment
++ Create virtual environment
 
     ```bash
     virtualenv .venv -p /usr/bin/python3.10
     ```
-+ Activate the virtual enviroment
+  **Note:** You can use any Python version, as long the Python packages in `requirements.txt` are supported. Because of the Python packages in `requirements.txt` were declared without describe the version.
++ Activate the virtual environment
 
     ```bash
     source .venv/bin/activate
@@ -20,11 +21,8 @@ Steps:
     pip install -r requirements.txt
     ```
 
-+ enable the enviroment variables.
++ enable the environment variables.
 
     ```bash
     cp .env.example .env
     ```
-
-+ `main.py` to runs the ML pipeline.
-+ `app.py` to runs the ML application.
