@@ -145,6 +145,10 @@ venv.bak/
 # mkdocs documentation
 /site
 
+# OS junk files
+[Tt]humbs.db
+*.DS_Store
+
 # mypy
 .mypy_cache/
 .dmypy.json
